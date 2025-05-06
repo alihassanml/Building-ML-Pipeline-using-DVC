@@ -1,0 +1,57 @@
+[
+    {
+        "sentence": "i didnt feel humiliated",
+        "emotion": "sadness",
+        "label": 4
+    },
+    {
+        "sentence": "i feel strong and good overall",
+        "emotion": "joy",
+        "label": 2
+    },
+    {
+        "sentence": "im grabbing a minute to post i feel greedy wrong",
+        "emotion": "anger",
+        "label": 0
+    },
+    {
+        "sentence": "He was speechles when he found out he was accepted to this new job",
+        "emotion": "joy",
+        "label": 2
+    },
+    {
+        "sentence": "This is outrageous, how can you talk like that?",
+        "emotion": "anger",
+        "label": 0
+    },
+    {
+        "sentence": "I feel like im all alone in this world",
+        "emotion": "sadness",
+        "label": 4
+    },
+    {
+        "sentence": "He is really sweet and caring",
+        "emotion": "love",
+        "label": 3
+    },
+    {
+        "sentence": "You made me very crazy",
+        "emotion": "sadness",
+        "label": 4
+    },
+    {
+        "sentence": "i am ever feeling nostalgic about the fireplace i will know that it is still on the property",
+        "emotion": "love",
+        "label": 3
+    },
+    {
+        "sentence": "i am feeling grouchy",
+        "emotion": "joy",
+        "label": 2
+    },
+    {
+        "sentence": "He hates you",
+        "emotion": "anger",
+        "label": 0
+    }
+]
