@@ -1,17 +1,15 @@
+import os
 import pandas as pd
-import numpy as np
-import matplotlib.pyplot as plt
-import seaborn as sns
-import string
-import re
-import warnings
-from wordcloud import WordCloud
-import nltk
-from nltk.stem.porter import PorterStemmer 
-warnings.filterwarnings('ignore')
+# (your existing imports remain the same)
 
-df = pd.read_csv('./data/raw/train.txt' ,header=None, sep=";", names = ['text' , 'emotion'])
+# Read raw data
+df = pd.read_csv('./data/raw/train.txt', header=None, sep=";", names=['text', 'emotion'])
 df = df.reset_index(drop=True)
 
-df.to_csv('./data/preprocess/train.csv', index=False)
-print("Successfully Save in CSV")
+# Ensure output directory exists
+output_dir = './data/preprocess'
+os.makedirs(output_dir, exist_ok=True)
+
+# Save the processed file
+df.to_csv(f'{output_dir}/train.csv', index=False)
+print("Successfully saved CSV")
