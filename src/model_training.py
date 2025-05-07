@@ -87,7 +87,8 @@ all_metrics.append({
 })
 
 
-with open('metrics.json', 'w') as file:
+
+with open('./results/training/metrics.json', 'w') as file:
     json.dump(all_metrics, file, indent=4)
 
 

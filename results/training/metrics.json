@@ -1,0 +1,22 @@
+[
+    {
+        "Model": "RandomForestClassifier",
+        "Accuracy": 0.83675
+    },
+    {
+        "Model": "Random Classfier",
+        "Accuracy": 0.84225
+    },
+    {
+        "Model": "MultinomialNB",
+        "Accuracy": 0.65775
+    },
+    {
+        "Model": "SVC",
+        "Accuracy": 0.8075
+    },
+    {
+        "Model": "LogisticRegression",
+        "Accuracy": 0.82125
+    }
+]

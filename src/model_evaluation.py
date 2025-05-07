@@ -63,5 +63,6 @@ sentences = [
 for sentence in sentences:
     predict_emotion(sentence)
 
-with open('result.json', 'w') as file:
+
+with open('./results/evaluation/result.json', 'w') as file:
     json.dump(all_metrics, file, indent=4)

@@ -5,3 +5,15 @@ stages:
       - src/data_ingestion.py
     outs:
       - data/preprocess
+
+  model_training:
+    cmd: python src/model_training.py
+    deps:
+      - data/preprocess
+      - src/model_training.py
+   
+
+  model_evaluation:
+    cmd: python src/model_evaluation.py
+    deps:
+      - src/model_evaluation.py
