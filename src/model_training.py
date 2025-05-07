@@ -21,7 +21,7 @@ import json
 warnings.filterwarnings('ignore')
 
 
-df = pd.read_csv('./data/train.csv')
+df = pd.read_csv('./data/preprocess/train.csv')
 
 stopwords = set(nltk.corpus.stopwords.words('english'))
 def clean_text(text):

@@ -10,8 +10,8 @@ import nltk
 from nltk.stem.porter import PorterStemmer 
 warnings.filterwarnings('ignore')
 
-df = pd.read_csv('./data/train.txt' ,header=None, sep=";", names = ['text' , 'emotion'])
+df = pd.read_csv('./data/raw/train.txt' ,header=None, sep=";", names = ['text' , 'emotion'])
 df = df.reset_index(drop=True)
 
-df.to_csv('./data/train.csv', index=False)
+df.to_csv('./data/preprocess/train.csv', index=False)
 print("Successfully Save in CSV")
