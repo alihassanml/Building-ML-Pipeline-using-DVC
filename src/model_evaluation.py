@@ -26,6 +26,8 @@ def clean_text(text):
     text = [stemmer.stem(word) for word in text if word not in stopwords]
     return " ".join(text)
 
+print('Successfully Clean text')
+
 
 all_metrics = []
 def predict_emotion(input_text):
@@ -61,5 +63,5 @@ sentences = [
 for sentence in sentences:
     predict_emotion(sentence)
 
-with open('metrics.json', 'w') as file:
+with open('result.json', 'w') as file:
     json.dump(all_metrics, file, indent=4)

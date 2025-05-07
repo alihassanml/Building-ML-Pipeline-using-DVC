@@ -46,8 +46,8 @@
     },
     {
         "sentence": "i am feeling grouchy",
-        "emotion": "joy",
-        "label": 2
+        "emotion": "anger",
+        "label": 0
     },
     {
         "sentence": "He hates you",
